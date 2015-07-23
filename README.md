@@ -49,6 +49,52 @@ groups:
       prefix: '&f[&6Farmer&f]&f'
       build: true
       suffix: '&f'
+  builder:
+    default: false
+    permissions:
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.builder
+    - essentials.kit
+    - essentials.kit.Builder
+    inheritance:
+    - default
+    - farmer
+    info:
+      prefix: '&f[&cBuilder&f]'
+      build: true
+      suffix: '&f'
+  knight:
+    default: false
+    permissions:
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.knight
+    - essentials.kit
+    - essentials.kit.Knight
+    inheritance:
+    - default
+    - farmer
+    - builder
+    info:
+      prefix: '&f[&9Knight&f]'
+      build: true
+      suffix: '&f'
+  king:
+    default: false
+    permissions:
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.king
+    - essentials.kit
+    - essentials.kit.King
+    - nv.use
+    inheritance:
+    - default
+    - farmer
+    - builder
+    - knight
+    info:
+      prefix: '&f[&eKnight&f]'
+      build: true
+      suffix: '&f'
   l5:
     default: false
     permissions:
