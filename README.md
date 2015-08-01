@@ -40,7 +40,7 @@ groups:
     default: false
     permissions:
     - essentials.sethome.multiple
-    - essentials.sethome.multiple.farmer
+    - essentials.sethome.multiple.two
     - essentials.kit
     - essentials.kit.Farmer
     inheritance:
@@ -53,7 +53,7 @@ groups:
     default: false
     permissions:
     - essentials.sethome.multiple
-    - essentials.sethome.multiple.builder
+    - essentials.sethome.multiple.four
     - essentials.kit
     - essentials.kit.Builder
     inheritance:
@@ -67,7 +67,7 @@ groups:
     default: false
     permissions:
     - essentials.sethome.multiple
-    - essentials.sethome.multiple.knight
+    - essentials.sethome.multiple.five
     - essentials.kit
     - essentials.kit.Knight
     inheritance:
@@ -82,7 +82,7 @@ groups:
     default: false
     permissions:
     - essentials.sethome.multiple
-    - essentials.sethome.multiple.king
+    - essentials.sethome.multiple.six
     - essentials.kit
     - essentials.kit.King
     - nv.use
@@ -92,7 +92,26 @@ groups:
     - builder
     - knight
     info:
-      prefix: '&f[&eKnight&f]'
+      prefix: '&f[&eKing&f]'
+      build: true
+      suffix: '&f'
+  prince:
+    default: false
+    permissions:
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.five
+    - essentials.kit
+    - essentials.kit.Prince
+    - essentials.kit.Donator
+    - nv.use
+    inheritance:
+    - default
+    - farmer
+    - builder
+    - knight
+    - king
+    info:
+      prefix: '&f&l[&4Prince&f&l]'
       build: true
       suffix: '&f'
   l5:
